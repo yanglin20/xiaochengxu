@@ -1,5 +1,5 @@
 <template>
-    <div class="image-view">
+    <div class="image-view" :style= " {height}">
         <img 
             :class= " round ? 'round image':'image'"
             :style= " {height}"
@@ -45,7 +45,11 @@
             round:{
                 type:Boolean,
                 default:false
-            }
+            },
+            height: {
+        type: String,
+        default: 'auto'
+      }
         },
         methods:{
             onLoad(){

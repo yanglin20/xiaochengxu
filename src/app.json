@@ -1,6 +1,10 @@
 {
   "pages": [
-    "pages/index/main"
+    "pages/index/main",
+    "pages/zhibo/main",
+    "pages/copy/main",
+    
+    "pages/search/main"
   ],
   "window": {
     "backgroundTextStyle": "light",

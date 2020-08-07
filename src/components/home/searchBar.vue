@@ -1,6 +1,6 @@
 <template>
     <div class="search-bar">
-       <div class="search-bar-wrapper">
+       <div class="search-bar-wrapper" @click="onSearchBarClick">
            <van-icon 
                 class="search"
                 name="search"
@@ -59,6 +59,10 @@
             },
             onChange(e){
                 console.log(e)
+            },
+            onSearchBarClick(){
+              
+            this.$emit('onSearchBarClick')
             }
         }
     }

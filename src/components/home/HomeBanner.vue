@@ -2,7 +2,7 @@
     <div class="home-banner" >
         <div 
             class="bg-img"
-            :style="{backgroundImage: 'url(' +  data.img + ')'}"
+            :style="{backgroundImage: 'url(' +  bgImg + ')'}"
         >
             <div class="title">{{data.title}}</div>
             <div class="subTitle" @click="onBanner">{{data.subTitle}}</div>
@@ -14,15 +14,18 @@
     export default {
 
          props: {
-      data: Object
-    },
+            data: Object
+            },
         data() {
             return {
               
             }
         },
         computed:{
-         
+         bgImg(){
+              return this.data && this.data.img  || ""
+     
+         }
         },
         methods:{
             onBanner(){
