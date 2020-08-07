@@ -1,6 +1,6 @@
 <template>
     <div>
-      今天天气 这号啊
+      今天天气 有点热
     </div>
 </template>
 
