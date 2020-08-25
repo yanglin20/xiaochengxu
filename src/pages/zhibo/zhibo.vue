@@ -1,7 +1,7 @@
 <template>
     <div>
-      今天天气 有点热 燥热
-      <p>8.25 第五次</p>
+      今天天气 有点热
+      
       
     </div>
 </template>
