@@ -1,7 +1,7 @@
 <template>
     <div>
       今天天气   哈哈
-      <p>12345456</p>
+      <p>8.25 下午 14:00</p>
       
     </div>
 </template>
