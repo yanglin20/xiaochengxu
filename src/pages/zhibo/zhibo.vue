@@ -1,6 +1,6 @@
 <template>
     <div>
-      今天天气 有点热
+      今天天气 有点热 燥热
     </div>
 </template>
 
